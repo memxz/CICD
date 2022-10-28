@@ -21,4 +21,9 @@
 - git tag -a -m "first release - use with caution" v0.1-beta
 - git push origin v0.1-beta
 > git tag    
+- git branch <branchName>
+- git checkout <branchName>
+- git checkout -b <branchName>
+- git branch -D <branchName>
+- git log --oneline
 - 

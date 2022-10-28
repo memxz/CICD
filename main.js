@@ -24,6 +24,7 @@ app.get('/',(req,resp)=>{
     resp.send(`<h1>the current time is ${new Date()}</h1><img src="/static/tree.jpg">`)
 })
 
+//serve static resource
 app.use("/static", express.static(__dirname + "/static"))
 
 // start web application

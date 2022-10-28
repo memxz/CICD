@@ -26,4 +26,8 @@
 - git checkout -b <branchName>
 - git branch -D <branchName>
 - git log --oneline
-- 
+- git merge feature-1
+> merge feature-1 branch to main branch
+1. Main as a receiving branch, user need checkout main
+2. feature-1 branch will merge into main
+

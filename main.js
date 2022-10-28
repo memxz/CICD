@@ -4,7 +4,7 @@ const morgan= require('morgan')
 
 //configure port
 //check if it is set in the environment varible, if not then we default to 3000
-const port = process.env.port || 3000
+const port = process.env.PORT || 3000
 
 //create an instance of express application
 

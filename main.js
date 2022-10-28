@@ -21,8 +21,10 @@ app.get('/',(req,resp)=>{
     //set the statu code
     resp.status(200)
     //send the response
-    resp.send(`<h1>the current time is ${new Date()}</h1>`)
+    resp.send(`<h1>the current time is ${new Date()}</h1><img src="/static/tree.jpg">`)
 })
+
+app.use("/static", express.static(__dirname + "/static"))
 
 // start web application
 app.listen(port,()=>{

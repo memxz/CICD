@@ -18,6 +18,8 @@
 
 > -r 是为了recursive purpose
 
+## Tag and releasing
+
 - git tag -a -m "first release - use with caution" v0.1-beta
 - git push origin v0.1-beta
 > git tag    
@@ -26,4 +28,4 @@
 - git checkout -b <branchName>
 - git branch -D <branchName>
 - git log --oneline
-- 
+  
